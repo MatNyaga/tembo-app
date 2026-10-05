@@ -29,7 +29,7 @@
 <body>
 <main>
   <h1>Privacy policy – Tembo</h1>
-  <p class="muted">Last updated: 29 September 2026</p>
+  <p class="muted">Last updated: 5 October 2026</p>
 
   <div class="box">
     <p><strong>In short:</strong> Tembo reads the texts on your phone to work out what you earn, spend, borrow and save. Everything stays on your phone. There is no Tembo account and no Tembo server. Nothing leaves your phone unless you choose to: by using the optional AI guesser, by saving a backup file, or by sharing a spreadsheet.</p>
@@ -43,8 +43,9 @@
   <h2>What Tembo reads, and why</h2>
   <table>
     <tr><th>What</th><th>Why</th><th>Needed?</th></tr>
-    <tr><td><strong>Your text messages (SMS)</strong></td><td>To find money texts from M-PESA, Fuliza, banks and similar services and turn them into your payments, income and savings. Tembo reads all texts so it can find these, and it keeps a copy of them inside the app so your history is not lost when old texts are deleted. Texts sent around the time of a payment can be shown as clues to what the payment was for.</td><td>Yes. Without texts Tembo has nothing to show.</td></tr>
+    <tr><td><strong>Your text messages (SMS)</strong></td><td>To find money texts from M-PESA, Fuliza, banks and similar services and turn them into your payments, income and savings. Tembo reads all texts so it can find these, and it keeps a copy of them inside the app so your history is not lost when old texts are deleted. Texts sent around the time of a payment can be shown as clues to what the payment was for. While you set Tembo up, it can also suggest your own bank accounts: it looks through some banks' texts on the phone for wording such as "your account" and shows you the bank and the last digits. Nothing is chosen until you pick it, and the suggestions never leave the phone.</td><td>Yes. Without texts Tembo has nothing to show.</td></tr>
     <tr><td><strong>Your contacts</strong></td><td>To show names instead of phone numbers.</td><td>No. You can say no.</td></tr>
+    <tr><td><strong>One contact you pick</strong></td><td>When you choose someone to keep private, you can pick them with your phone's contact picker. Tembo gets only the contact you pick and keeps only its phone number and name, so it can keep that person's payments private (see the AI guesser below). This works without the Contacts permission.</td><td>No.</td></tr>
     <tr><td><strong>Files you choose to import</strong></td><td>For example an SMS Backup &amp; Restore file with old texts (and calls, if the file has them), or a Tembo backup file.</td><td>No.</td></tr>
   </table>
   <p>Tembo does <strong>not</strong> read your call history. It does not use your location, camera, microphone, photos or files you have not picked.</p>
@@ -58,7 +59,7 @@
   <p>If you add your own key for Anthropic (Claude), OpenAI (ChatGPT) or Google (Gemini), or point Tembo at an AI program on a computer in your home, Tembo can ask it what some unclear payments were for.</p>
   <ul>
     <li>Nothing is sent until you tap <strong>Send</strong> on the "Ask the AI" screen, which first shows you what will be sent.</li>
-    <li>What is sent: for each unclear payee (at most 40 per run) the payee's name, the amounts and dates of its payments, and the calls and texts from the hours around each payment (with names from your contacts). Payees you marked private are never sent. Your balances and your key are never part of the question.</li>
+    <li>What is sent: for each unclear payee (at most 40 per run) the payee's name, the amounts and dates of its payments, and the calls and texts from the hours around each payment (with names from your contacts). Payees you marked private (typed by name or picked from your contacts) are never sent, and neither are texts or calls from their phone numbers. Your balances and your key are never part of the question.</li>
     <li>Where it goes: to the company you picked, using your own account with them, over an encrypted (HTTPS) connection. Their own privacy policy covers what they do with it. If you picked a computer on your home network, it goes there over your home Wi-Fi <strong>without encryption</strong> (plain http), so only use this on a network you trust.</li>
   </ul>
   <h3>2. Backup files (optional)</h3>
